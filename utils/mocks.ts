@@ -12,9 +12,10 @@ const workMock: Work = {
   createdAt: 1625750400000,
   approvedAt: 1625750400000,
   type: "painting",
-  work: "Fleurs dans un verre",
+  title: "Fleurs dans un verre",
   artist: "Vincent van Gogh",
   year: 1889,
+  price: 1000000,
 }
 
 export { clientMock, workMock }
